@@ -99,10 +99,11 @@
         } */
         .main {
             background-image: url(./images/huzaifa3.jpg);
-            background-repeat: no repeat;
+            background-repeat: repeat-y ;
+            /* border-image-repeat: no repeat; */
             /* border: 2px solid yellow; */
             float: left;
-            width: 680px;
+            width: 42.9%;
             height: 980px;
             /* padding-bottom: 2px; */
             /* display: inline-block; */
@@ -171,7 +172,7 @@
             right: 1px; */
             /* border: 2px solid blue; */
             display: inline-block;
-            width: 863px;
+            width: 54.5%;
             height: 940px;
             padding: 20px;
         }
