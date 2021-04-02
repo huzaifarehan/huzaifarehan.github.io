@@ -1,12 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Huzaifa Rehan</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        /* * {
+            box-sizing: border-box;
+        } */
+        body {
+            font-family: 'Balsamiq Sans', cursive;
+            margin: 0%;
+            padding: 0%;
+            background-color: black;
+            ;
+            color: white;
+        }
+
+        nav {
+            background-color: rgb(35 31 31);
+            /* margin: 0%; */
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid rgb(169, 142, 219); */
+            position: absolute;
+            top: 5px;
+            left: 34px;
+            font-size: 20px;
+        }
+
+        .left img {
+            width: 76px;
+        }
+
+        .mid {
+            /* list-style: none; */
+            border: 2px solid rgb(35 31 31);
+            display: block;
+            width: 60%;
+            margin: 0% auto;
+            font-size: 20px;
+        }
+
+        .mid ul {
+            list-style: none;
+            /* padding-left: 15px; */
+            /* padding: 20px; */
+        }
+
+        .mid li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #navbar li a:hover {
+            color: rgb(180, 175, 175);
+            /* text-decoration: underline; */
+            /* background-color: green; */
+        }
+
+        .mid li {
+            display: inline-block;
+            padding: 0px 22px;
+        }
+
+        .right {
+            /* border: 2px solid rgb(2, 238, 140); */
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            right: 70px;
+        }
+
+        /* .right ul{
+            filter: invert();
+            width: 30px;
+            text-decoration: none;
+            
+        }
+        .right li a{
+            display: inline-block;
+            list-style: none;
+        } */
+        .right img {
+            filter: invert();
+            width: 30px;
+            /* text-decoration: none; */
+
+        }
+
+        /* .right span a img :hover{
+            color:rgb(180, 175, 175);
+        } */
+        /* .right img :hover{
+            background-color: green;
+        } */
+        span {
+            padding: 8px;
+        }
+
+        /* .hov :hover{
+            background-color: green;
+        } */
+        .main {
+            background-image: url(./images/huzaifa3.jpg);
+            background-repeat: no repeat;
+            /* border: 2px solid yellow; */
+            float: left;
+            width: 680px;
+            height: 980px;
+            /* padding-bottom: 2px; */
+            /* display: inline-block; */
+            /* border: 2px solid yellow; */
+            /* border: 2px solid yellow ; */
+            /* width: 500px;
+            height: 1000px; */
+            /* width: 50%; */
+        }
+
+        #messenger {
+            /* border: 2px solid green; */
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+        }
+
+        #messenger a img {
+            width: 50px;
+            height: 50px;
+        }
+
+        #whatsapp {
+            /* border: 2px solid green; */
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        #whatsapp a img {
+            width: 50px;
+            height: 50px;
+        }
+
+        #myname {
+            color: #00a1d2;
+            display: inline-block;
+            font-size: 65px;
+            /* border: 2px solid tomato; */
+            /* width: 680px; */
+            position: fixed;
+            bottom: 10px;
+            left: 130px;
+        }
+
+        #work {
+            /* color: #6d9ab5; */
+            color: white;
+            display: block;
+            font-weight: bold;
+            font-size: 24px;
+            /* border: 2px solid tomato; */
+            /* width: 680px; */
+            position: fixed;
+            bottom: -7px;
+            left: 282px;
+        }
+
+        .data {
+            background-color: rgba(51, 49, 49, 0.938);
+            /* border: 2px solid blue; */
+            display: inline-block;
+            width: 855px;
+            height: 940px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+
+        #aboutme {
+            /* border: 2px solid red; */
+            padding: 0px 40px;
+        }
+
+        h4 {
+            color: #00a1d2;
+        }
+
+        /* .ferozi{
+            color: #00a1d2;
+        } */
+
+        #myservices {
+            font-size: 25px;
+            /* border: 2px solid red; */
+            padding: 0px 40px;
+        }
+
+        .service {
+            /* border: 2px solid white; */
+            display: inline-block;
+            width: 341px;
+            height: 250px;
+            padding: 5px 40px;
+        }
+
+        .subservice {
+            filter: invert();
+            /* padding: 10px 20px; */
+            width: 70px;
+            height: 70px;
+        }
+
+        .footer {
+            /* border: 2px solid red; */
+            position: absolute;
+            right: 1px;
+            width: 895px;
+            height: 600px;
+        }
+
+        #form {
+            font-size: 18px;
+            /* border: 2px solid green; */
+            display: block;
+            width: 60%;
+            margin: auto;
+
+        }
+
+        #form h2 {
+            color: #00a1d2;
+            font-size: 30px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .inp {
+            /* border: 2px solid red; */
+            display: inline-block;
+        }
+
+        .inp input {
+            border-radius: 30px;
+            width: 238px;
+            height: 25px;
+        }
+
+        .inp textarea {
+            border-radius: 10px;
+        }
+
+        /* #btn input{
+            padding-right: 20px;
+            border: red;
+            text-align: centre;
+            background-color: #00a1d2 ;
+            border-radius: 30px;
+            width: 100px;
+            height: 25px;
+        } */
+        #button {
+            font-family: 'Balsamiq Sans', cursive;
+            position: relative;
+            left: 280px;
+            font-size: 30px;
+            background-color: #00a1d2;
+            border-radius: 25px;
+            width: 250px;
+            height: 50px;
+            /* justify-content: right;
+            text-align: right; */
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <nav>
+
+        <div class="left">
+            <img src="./images/hwhite.png" alt="Error" title="Huzaifa Rehan">
+            <!-- <img src="./h.png" alt="Error"  title="Huzaifa Rehan"> -->
+        </div>
+
+        <div class="mid">
+            <ul id="navbar">
+                <li><a href="">About</a></li>
+                <li><a href="">Featured</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <span>
+                <a href="https://www.facebook.com/huxaifarehan01" target="blank"><img
+                        src="./images/facebook_black_24dp.svg" class="hov" alt="error" title="Facebook"></a>
+            </span>
+            <span>
+                <a href="https://twitter.com/huxaifa_rehan" target="blank"><img src="./images/twitter.svg" alt="error"
+                        class="hov" title="Twitter"></a>
+            </span>
+            <span>
+                <a href="https://www.instagram.com/huxaifarehan/" target="blank"><img src="./images/instagram.svg"
+                        alt="error" class="hov" title="Instagram"></a>
+            </span>
+            <span>
+                <a href="https://www.pinterest.com/huzaifarehan001" target="blank"><img src="./images/pinterest.svg"
+                        alt="error" class="hov" title="Pinterest"></a>
+            </span>
+            <span>
+                <a href="https://www.linkedin.com/in/huzaifa-rehan-83521b1a6/" target="blank"><img
+                        src="./images/linkedin.svg" alt="error" class="hov" title="Linkedin"></a>
+            </span>
+            <span>
+                <a href="https://github.com/huzaifarehan" target="blank"><img src="./images/github.svg" alt="error"
+                        class="hov" title="Git-Hub"></a>
+            </span>
+
+            <!-- <ul>
+                <li> <a href=""><img src="./facebook_black_24dp.svg" alt=""></a></li>
+                <li> <a href=""><img src="./twitter.svg" alt=""></a></li>
+                <li></li>
+                <li></li>
+            </ul> -->
+        </div>
+
+        <!-- </div class="right">
+        i m right
+        </div> -->
+    </nav>
+    <!-- abhi uncomment krna hai isse -->
+    <div class="main">
+        <span id="messenger">
+            <a href="https://www.facebook.com/messages/t/100014407746356" target="blank"><img
+                    src="./images/messenger.png" alt="error" title="chat on messenger"></a>
+        </span>
+        <span id="whatsapp">
+            <a href="https://wa.me/qr/F3EAMFB7A5SEP1" target="blank"><img src="./images/whatsapp.png" alt="error" title="chat on whatsapp"></a>
+        </span>
+        <span id="myname">Huzaifa Rehan</span>
+        <span id="work">Developer</span>
+    </div>
+    <div class="data">
+        <div id="aboutme">
+            <h1>About me</h1>
+            <h4 class="ferozi">18 Years / Lviv / Freelance</h4>
+            <p>Prolific, full stack web developer with a passion for metrics and beating former "best-yets" Prototype 25
+                new product features per year for Flexor,Inc.Decreased rework by 22% all costs by 15%. Consistently
+                receive high user experiance across for all web development projects,including a 55% increase for
+                Flexor.Inc. Passionate about Building World class web applications. One of my sites received a 2015
+                webby for best navigation and structure.
+            </p><br>
+            <hr class="ferozi">
+        </div>
+        <div id="myservices">
+
+            <h3>My Services</h3>
+        </div>
+        <div class="service">
+            <img src="./images/devices_black_24dp.svg" class="subservice" alt="">
+            <h4>Development</h4>
+            <p>Building a Custom tailored solution base on your technical specification.</p>
+        </div>
+        <div class="service">
+            <img src="./images/seo.svg" class="subservice" alt="">
+            <h4>SEO Optimization</h4>
+            <p>Audit your website, perform technical improvements and write meta tags</p>
+        </div>
+        <div class="service">
+            <img src="./images/account_tree_black_24dp.svg" class="subservice" alt="">
+            <h4>Data Base</h4>
+            <p>SSL certificate and configuration, redirection configuration on your website</p>
+        </div>
+        <div class="service">
+            <img src="./images/security_black_24dp.svg" class="subservice" alt="">
+            <h4>Data Security</h4>
+            <p>Strategy with leading data protecion technology to safeguard your critical data4</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <form action="noaction.php" id="form">
+            <h2>Drop a line for me</h2>
+            <label><span class="inp">First Name*<br><input type="text" name="First Name"></span></label>
+            <label><span class="inp">Last Name<br><input type="text" name="last Name"></span></label>
+            <label><span class="inp">E-mail*<br><input type="email" name="email"></span></label>
+            <label><span class="inp">Phone No.*<br><input type="text" name="number" id=""></span></label>
+            <label><span class="inp">Comment<br><textarea name="comment" id="" cols="71"
+                        rows="10"></textarea></span></label>
+            <!-- <p id="btn"><input type="submit" value="Submit"></p> -->
+            <button class="inp" id="button">Submit</button>
+        </form>
+    </div>
 </body>
+
 </html>
