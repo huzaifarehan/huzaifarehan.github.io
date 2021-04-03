@@ -227,12 +227,12 @@
 
         .footer {
             /* border: 2px solid red; */
-            /* position: absolute; */
-            /* right: 200px; */
+            position: absolute;
+            right: 200px;
             width: 895px;
             height: 600px;
-            display: block;
-            margin: auto;
+            /* display: block;
+            margin: auto; */
         }
 
         #form {
